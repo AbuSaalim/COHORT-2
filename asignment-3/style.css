@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    /* height: 100vh; */
+    width: 100vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  font-style: normal;
+    background: linear-gradient(to right, #ACCDE2, #F1D4B5);
+}
+
+.mt-2 {
+    margin-top: 20px;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+
+.logo {
+    font-size: 20px;
+}
+
+.logo span {
+    color: white;
+}
+.logo i {
+    color: white;
+    font-size: 24px;
+}
+
+
+.linksall {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+.linksall li {
+    padding: 20px;
+    list-style-type: none;
+}
+.linksall li:hover {
+    cursor: pointer;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    border: 1px solid #363636;
+    padding: 10px 40px;
+    border-radius: 7px;
+}
+.app:hover {
+    cursor: pointer;
+}
+
+
+/* Hero Start */
+
+.main {
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+        top: 200px;
+    left: 100px;
+}
+
+.text-main-side {
+    font-size: 110px;
+    color: white;
+    line-height: 1;
+}
+
+.star {
+    color: #FFD700;
+    font-size: 35px;
+}
+
+.shirt img {
+    position: absolute;
+    left: 15%;
+    z-index: -1;
+}
+
+
+
+.shirt .wing-text-left {
+    position: absolute;
+    left: 30%;
+    top: 130px;
+    font-size: 20px;
+    font-weight: 400;
+    z-index: -1;
+}
+.shirt .wing-text-right {
+    position: absolute;
+    left: 55%;
+    top: 200px;
+    font-size: 20px;
+    font-weight: 400;
+    z-index: -1;
+}
+
+.tshirt-bundle {
+    position: absolute;
+    /* height: 300px; */
+    text-align: center;
+    padding-bottom: 10px;
+    width: 250px;
+    border-radius: 15px;
+    background-color: #DED9D7;
+    top: 400px;
+    right: 100px;
+}
+
+
+
+.numbers {
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* Hero End */
+
+/* Footer Start */
+/* footer {
+    background-color: #363636;
+    height: 300px;
+    width: 100%;
+} */
+/* Footer End */

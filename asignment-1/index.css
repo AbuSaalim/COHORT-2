@@ -1,6 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     
+}
+
+body {
+    line-height: 1.6;
+    font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f1f6f9;
+}
+
+.fs-21 {
+    font-size: 21px;
+}
+.fs-50 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+header {
+    background-color: rgb(19, 57, 73);
+    padding: 40px 0;
+}
+
+header h1  {
+    text-align: center;
+    font-size: 80px;
+    color: white;
+}
+
+header p {
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    font-weight: 300;
+}
+
+.about {
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 80px 30px;
+    padding-top: 50px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.education {
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 80px 30px;
+    padding-top: 50px;
+    border-radius: 5px;
+    background-color: rgb(128, 31, 31);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.edu {
+    background-color: white;
+    max-width: 800px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.qualified-edu {
+    padding: 15px 40px;
+    color: #363636;
 }
